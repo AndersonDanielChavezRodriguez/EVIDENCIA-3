@@ -8,11 +8,11 @@ body{
     grid-template-columns: repeat(2,1fr);
 }
 
-#seleccion{
+.seleccion{
     margin:140px auto;
 }
 
-#MINIJUEGOS{
+.MINIJUEGOS{
     width: 400px;
     height: 250px;
     border-radius: 20px;
@@ -20,7 +20,7 @@ body{
     transition: all 2s ease-in-out;
 }
 
-#MINIJUEGOS:hover{
+.MINIJUEGOS:hover{
     transform: scale(1.1);
     margin-bottom: 5px;
 }
