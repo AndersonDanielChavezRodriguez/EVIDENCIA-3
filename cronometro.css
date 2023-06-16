@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    transition: all 0.3s;
+}
+
+body{
+    background-color: #E35014;
+    font-family: 'Righteous', cursive;
+}
+
+.salida{
+    display: block;
+    margin: 20px;
+    font-size: 30px;
+}
+.marco{
+    margin-top: 130px;
+    background-color: #333;
+    width: 400px;
+    border-radius: 50px;
+    border: 4px solid white;
+}
+.tiempo{
+    padding: 30px;
+    font-size: 50px;
+}
+
+.botones-contenedor{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 30px;
+}

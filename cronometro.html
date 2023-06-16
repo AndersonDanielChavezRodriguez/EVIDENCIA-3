@@ -6,9 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRONOMETRO</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="cronometro.css">
+    <script src="https://kit.fontawesome.com/83c7728ede.js" crossorigin="anonymous"></script>
+</head>    
+<a href="games.html" class="salida">
+    <i class="fa-solid fa-square-xmark fa-beat fa-2xl" style="color: #1f62d6;"></i>
+</a>
 <body>
-    
+<center>
+    <div class="marco">
+        <div id="tiempo" class="tiempo">
+            00:00:00.000
+        </div>
+        <div class="botones-contenedor">
+            <div class="btn" onclick="iniciar()"><i class="fa-solid fa-play" style="color: #ffffff;"></i></div>
+            <div class="btn" onclick="pausar()"><i class="fa-solid fa-pause" style="color: #ffffff;"></i></div>
+            <div class="btn" onclick="reiniciar()"><i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i></div>
+        </div>
+    </div>
+</center>
+    <script src="cronometro.js"></script>
 </body>
 </html>

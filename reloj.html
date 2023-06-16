@@ -6,9 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RELOJ</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reloj.css">
+    <script src="https://kit.fontawesome.com/83c7728ede.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <a href="games.html" class="salida">
+        <i class="fa-solid fa-square-xmark fa-beat fa-2xl" style="color: #1f62d6;"></i>
+    </a>
+    <div class="contenedor">
+        <div class="widget">
+            <div class="fecha">
+                <p id="diaSemana" class="diaSemana"></p>
+                <p id="dia" class="dia"></p>
+                <p> de </p>
+                <p id="mes" class="mes"></p>
+                <p> del</p>
+                <p id="year" class="year"></p>
+            </div>
+            <div class="reloj">
+                <p id="horas" class="horas"></p>
+                <p>:</p>
+                <p id="minutos" class="minutos"></p>
+                <p>:</p>
+                <div class="caja-segundos">
+                    <p id="ampm" class="ampm"></p>
+                    <p id="segundos" class="segundos"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="reloj.js"></script>
 </body>
 </html>
