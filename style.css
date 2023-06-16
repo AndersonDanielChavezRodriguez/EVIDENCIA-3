@@ -27,32 +27,3 @@ body{
 .start:hover{
     cursor: pointer;
 }
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-#seleccion{
-    margin:140px auto;
-}
-
-#MINIJUEGOS{
-    width: 400px;
-    height: 250px;
-    border-radius: 20px;
-    border: 2px solid black;
-    transition: all 2s ease-in-out;
-}
-
-#MINIJUEGOS:hover{
-    transform: scale(1.1);
-    margin-bottom: 5px;
-}
-
-#titulo{
-    margin: 0;
-    text-align: center;
-    color: white;
-    text-shadow: 3px 3px 0px black;
-}
